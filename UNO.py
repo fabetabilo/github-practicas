@@ -54,3 +54,9 @@ print("DOS: Esta es la segunda version")
             # b2339bd (HEAD -> master) Tercera : => Esta es la version actual
             # cee0b06 Segunda version
             # 94479e5 Primera version
+
+    # Navega a traves de las versiones con:
+        # git reset --hard [ID_VERSION]
+
+        # EJEMPLO:
+            # git reset --hard 94479e5 (Vuelve a la Primer Version)
