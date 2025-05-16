@@ -31,3 +31,16 @@ print("UNO: Esta es la version uno")
 
 
 print("DOS: Esta es la segunda version")
+
+# Nota:
+    # Tienes tu archivo, y lo modificas. Y verificas que el archivo se modifico (M roja):
+        # git status -s
+
+    # Para actualizar su version entonces:
+        # git add .
+
+    # Confirma que la modificacion se agrego (M verde):
+        # git status -s
+
+    # Haz el commit y confirma la nueva version:
+        # git commit -m "Esta es la nueva version"
