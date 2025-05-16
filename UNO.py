@@ -55,8 +55,19 @@ print("DOS: Esta es la segunda version")
             # cee0b06 Segunda version
             # 94479e5 Primera version
 
-    # Navega a traves de las versiones con:
+    # Navega y "regresa" a traves de las versiones con:
         # git reset --hard [ID_VERSION]
 
         # EJEMPLO:
             # git reset --hard 94479e5 (Vuelve a la Primer Version)
+
+    # Termina, y envialo a Remote
+        # git push
+
+print("SEIS: Este es el final en GitHub")
+
+    # git add .
+    # git commit -m "Seis"
+    # git log --oneline
+        # -- muestra un origin/main
+    # git push
