@@ -44,3 +44,13 @@ print("DOS: Esta es la segunda version")
 
     # Haz el commit y confirma la nueva version:
         # git commit -m "Esta es la nueva version"
+
+    # Luego, puedes confirmar y no aparecera nada en la cli
+        # git status -s
+
+    # Chequea las versiones con:
+        # git log --oneline
+
+            # b2339bd (HEAD -> master) Tercera : => Esta es la version actual
+            # cee0b06 Segunda version
+            # 94479e5 Primera version
