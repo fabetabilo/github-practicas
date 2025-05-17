@@ -61,8 +61,13 @@ print("DOS: Esta es la segunda version")
         # EJEMPLO:
             # git reset --hard 94479e5 (Vuelve a la Primer Version)
 
+    # 
+        # git remote add origin https://github.fom/fabetabilo/github-practicas.git
+
+        # git branch -M main
+
     # Termina, y envialo a Remote
-        # git push
+        # git push -u origin main
 
 print("SEIS: Este es el final en GitHub")
 
