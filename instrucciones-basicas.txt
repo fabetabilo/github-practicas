@@ -1,0 +1,56 @@
+USA COMANDOS LINUX
+
+pwd -- directorio donde estas
+cd  -- navegar entre directorios
+ls  -- listar archivos de directorios
+
+
+USA TABULADOR PARA AUTOCOMPLETAR
+
+git init    } --> Inicia el repositorio local
+
+git add .   } --> Agrega todo en la ruta que estas
+
+git add .archivo / .carpeta     } --> Agrega el archivo en especifico
+
+git commit -m "Mensaje del commit" } --> Realiza un commit
+
+git status -s       } --> checkea estados de archivos o carpetas
+
+git log --oneline   } --> checkea historial de versiones, main, heads
+
+
+
+Para primer repositorio en github
+
+git remote add origin https://github.com/usuario/repositorio.git
+
+git branch -M main
+
+git push -u origin main
+
+
+
+
+Si ya esta el repositorio en github listo:
+
+git add .blabla    } --> Esto agrega lo que modificaste o realizaste a un estado de "confirmo lo que mandare al repositorio github"
+
+git commit -m      } --> Esto confirma ese estado y realiza una version de este
+
+git push           } --> Lo envia al repositorio github
+
+
+
+
+Para traer archivos del repositorio nube de github
+Clonar el repositorio
+
+git clone https://kjdkjsakdja/jhdsjfsd.git
+
+
+git fetch       } --> Inicia el refresco de repositorio de la nube para el clon local
+
+git merge       } --> para combinar lo que tienes
+
+git checkout    } --> para diferentes raamas
